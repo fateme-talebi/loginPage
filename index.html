@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title> ورود | اپلیکشن کتاب باز</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="login-div">
+            <form id="main-form">
+                <p id="form-title">ورود</p>
+                <div class="input-container">
+                    <i class="fa fa-user icon"> </i>
+                    <input class="input-field" type="text" placeholder="نام کاربری" required>
+                </div>
+                <div class="input-container hide">
+                    <i class="fas fa-envelope icon"></i>
+                    <input class="input-field" type="email" placeholder="ایمیل" required>
+                </div>
+                <div class="input-container">
+                    <i class="fas fa-lock icon"></i>
+                    <input class="input-field" type="password" placeholder="گذرواژه" required>
+                </div>
+                <button type="submit" class="btn" id="form-btn">ورود</button>
+                <a href="" id="forget-password">فراموشی گذرواژه</a>
+                <div class="social-text">ما را در شبکه های اجتماعی دنبال کنید</div>
+                <div class="social-media">
+                    <a href="" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="" class="social-icon"><i class="fab fa-google"></i></a>
+                    <a href="" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </form>
+        </div>
+
+        <div id="left-side">
+            <div class="back-to-main-site landing-back-to-site">
+                <i class="fa fa-home"></i>
+                <a href="">
+                    <span class="hoveredText">بازگشت به سایت</span>
+                </a>
+            </div>
+            <div class="left-inner">
+                <h1>کتاب بازی</h1>
+                <div id="action-title">حساب کاربری ندارید ؟</div>
+                <button type="submit" class="btn create-login" onclick="toggleForm()"><i class="fas fa-user-plus"></i>&nbsp ایجاد حساب کاربری</button>
+                <button type="submit" class="btn create-login hide" onclick="toggleForm()"><i class="fas fa-sign-in-alt"></i>&nbsp ورود به سایت</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>
